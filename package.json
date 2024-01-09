@@ -1,6 +1,6 @@
 {
-  "name": "@MidoAhmed/rollup-react-library-starter",
-  "version": "0.1.0",
+  "name": "rollup-react",
+  "version": "0.1.2",
   "description": "Template and quick-starter to create modern React libraries using Rollup.",
   "main": "dist/cjs/bundle.js",
   "module": "dist/esm/bundle.js",
@@ -86,8 +86,12 @@
     "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.61.0",
     "storybook": "^7.0.2",
-    "styled-components": "^6.1.0",
+    "styled-components": "4.3.1",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-replace": "^5.0.5"
   }
 }
