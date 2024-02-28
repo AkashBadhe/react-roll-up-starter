@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/react";
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const preview: Preview = {
   globalTypes: {
