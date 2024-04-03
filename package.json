@@ -1,6 +1,6 @@
 {
-  "name": "rollup-react",
-  "version": "0.1.2",
+  "name": "my-lib",
+  "version": "1.0.0",
   "description": "Template and quick-starter to create modern React libraries using Rollup.",
   "main": "dist/cjs/bundle.js",
   "module": "dist/esm/bundle.js",
@@ -92,6 +92,8 @@
   },
   "dependencies": {
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-replace": "^5.0.5"
+    "@rollup/plugin-replace": "^5.0.5",
+    "bootstrap": "^5.3.2",
+    "react-bootstrap": "^2.9.2"
   }
 }
