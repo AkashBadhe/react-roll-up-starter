@@ -13,7 +13,7 @@ import pkg from "./package.json" assert { type: "json" };
 export default [
   {
     input: "src/index.ts",
-    external: ["react", "styled-components"],
+    external: ["styled-components", 'react', 'react-dom'],
     output: [
       {
         file: pkg.main,
@@ -61,7 +61,7 @@ export default [
         babelHelpers: "bundled",
       }),
     ],
-    external: [],
+    external: ["styled-components", 'react', 'react-dom'],
   },
   {
     input: "dist/esm/types/index.d.ts",
