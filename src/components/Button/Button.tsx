@@ -11,7 +11,7 @@ const CustomButton = ({label, ...others}: ButtonProps) => {
     setCount(count + 1);
   };
 
-  return <button {...others} onClick={clickHandler}>{label} {count}</button>;
+  return <button className="button button-primary" {...others} onClick={clickHandler}>{label} {count}</button>;
 };
 
 export default CustomButton;
